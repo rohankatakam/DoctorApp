@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FF16BD11D5D12AD001A9603 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16BD01D5D12AD001A9603 /* AppDelegate.swift */; };
+		3FF16BD31D5D12AD001A9603 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16BD21D5D12AD001A9603 /* ViewController.swift */; };
+		3FF16BD61D5D12AD001A9603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF16BD41D5D12AD001A9603 /* Main.storyboard */; };
+		3FF16BD81D5D12AD001A9603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF16BD71D5D12AD001A9603 /* Assets.xcassets */; };
+		3FF16BDB1D5D12AD001A9603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF16BD91D5D12AD001A9603 /* LaunchScreen.storyboard */; };
+		3FF16BE61D5D12AE001A9603 /* DoctorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16BE51D5D12AE001A9603 /* DoctorAppTests.swift */; };
+		3FF16BF11D5D12AE001A9603 /* DoctorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF16BF01D5D12AE001A9603 /* DoctorAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FF16BE21D5D12AE001A9603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF16BC51D5D12AD001A9603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF16BCC1D5D12AD001A9603;
+			remoteInfo = DoctorApp;
+		};
+		3FF16BED1D5D12AE001A9603 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FF16BC51D5D12AD001A9603 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FF16BCC1D5D12AD001A9603;
+			remoteInfo = DoctorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FF16BCD1D5D12AD001A9603 /* DoctorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF16BD01D5D12AD001A9603 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FF16BD21D5D12AD001A9603 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FF16BD51D5D12AD001A9603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF16BD71D5D12AD001A9603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF16BDA1D5D12AD001A9603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF16BDC1D5D12AD001A9603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF16BE11D5D12AE001A9603 /* DoctorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF16BE51D5D12AE001A9603 /* DoctorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppTests.swift; sourceTree = "<group>"; };
+		3FF16BE71D5D12AE001A9603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF16BEC1D5D12AE001A9603 /* DoctorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoctorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF16BF01D5D12AE001A9603 /* DoctorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorAppUITests.swift; sourceTree = "<group>"; };
+		3FF16BF21D5D12AE001A9603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF16BCA1D5D12AD001A9603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BDE1D5D12AE001A9603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BE91D5D12AE001A9603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FF16BC41D5D12AD001A9603 = {
+			isa = PBXGroup;
+			children = (
+				3FF16BCF1D5D12AD001A9603 /* DoctorApp */,
+				3FF16BE41D5D12AE001A9603 /* DoctorAppTests */,
+				3FF16BEF1D5D12AE001A9603 /* DoctorAppUITests */,
+				3FF16BCE1D5D12AD001A9603 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF16BCE1D5D12AD001A9603 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16BCD1D5D12AD001A9603 /* DoctorApp.app */,
+				3FF16BE11D5D12AE001A9603 /* DoctorAppTests.xctest */,
+				3FF16BEC1D5D12AE001A9603 /* DoctorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF16BCF1D5D12AD001A9603 /* DoctorApp */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16BD01D5D12AD001A9603 /* AppDelegate.swift */,
+				3FF16BD21D5D12AD001A9603 /* ViewController.swift */,
+				3FF16BD41D5D12AD001A9603 /* Main.storyboard */,
+				3FF16BD71D5D12AD001A9603 /* Assets.xcassets */,
+				3FF16BD91D5D12AD001A9603 /* LaunchScreen.storyboard */,
+				3FF16BDC1D5D12AD001A9603 /* Info.plist */,
+			);
+			path = DoctorApp;
+			sourceTree = "<group>";
+		};
+		3FF16BE41D5D12AE001A9603 /* DoctorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16BE51D5D12AE001A9603 /* DoctorAppTests.swift */,
+				3FF16BE71D5D12AE001A9603 /* Info.plist */,
+			);
+			path = DoctorAppTests;
+			sourceTree = "<group>";
+		};
+		3FF16BEF1D5D12AE001A9603 /* DoctorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FF16BF01D5D12AE001A9603 /* DoctorAppUITests.swift */,
+				3FF16BF21D5D12AE001A9603 /* Info.plist */,
+			);
+			path = DoctorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF16BCC1D5D12AD001A9603 /* DoctorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF16BF51D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorApp" */;
+			buildPhases = (
+				3FF16BC91D5D12AD001A9603 /* Sources */,
+				3FF16BCA1D5D12AD001A9603 /* Frameworks */,
+				3FF16BCB1D5D12AD001A9603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoctorApp;
+			productName = DoctorApp;
+			productReference = 3FF16BCD1D5D12AD001A9603 /* DoctorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FF16BE01D5D12AE001A9603 /* DoctorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF16BF81D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorAppTests" */;
+			buildPhases = (
+				3FF16BDD1D5D12AE001A9603 /* Sources */,
+				3FF16BDE1D5D12AE001A9603 /* Frameworks */,
+				3FF16BDF1D5D12AE001A9603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF16BE31D5D12AE001A9603 /* PBXTargetDependency */,
+			);
+			name = DoctorAppTests;
+			productName = DoctorAppTests;
+			productReference = 3FF16BE11D5D12AE001A9603 /* DoctorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FF16BEB1D5D12AE001A9603 /* DoctorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF16BFB1D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorAppUITests" */;
+			buildPhases = (
+				3FF16BE81D5D12AE001A9603 /* Sources */,
+				3FF16BE91D5D12AE001A9603 /* Frameworks */,
+				3FF16BEA1D5D12AE001A9603 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FF16BEE1D5D12AE001A9603 /* PBXTargetDependency */,
+			);
+			name = DoctorAppUITests;
+			productName = DoctorAppUITests;
+			productReference = 3FF16BEC1D5D12AE001A9603 /* DoctorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF16BC51D5D12AD001A9603 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rohan;
+				TargetAttributes = {
+					3FF16BCC1D5D12AD001A9603 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3FF16BE01D5D12AE001A9603 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FF16BCC1D5D12AD001A9603;
+					};
+					3FF16BEB1D5D12AE001A9603 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3FF16BCC1D5D12AD001A9603;
+					};
+				};
+			};
+			buildConfigurationList = 3FF16BC81D5D12AD001A9603 /* Build configuration list for PBXProject "DoctorApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF16BC41D5D12AD001A9603;
+			productRefGroup = 3FF16BCE1D5D12AD001A9603 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF16BCC1D5D12AD001A9603 /* DoctorApp */,
+				3FF16BE01D5D12AE001A9603 /* DoctorAppTests */,
+				3FF16BEB1D5D12AE001A9603 /* DoctorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF16BCB1D5D12AD001A9603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF16BDB1D5D12AD001A9603 /* LaunchScreen.storyboard in Resources */,
+				3FF16BD81D5D12AD001A9603 /* Assets.xcassets in Resources */,
+				3FF16BD61D5D12AD001A9603 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BDF1D5D12AE001A9603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BEA1D5D12AE001A9603 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF16BC91D5D12AD001A9603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF16BD31D5D12AD001A9603 /* ViewController.swift in Sources */,
+				3FF16BD11D5D12AD001A9603 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BDD1D5D12AE001A9603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF16BE61D5D12AE001A9603 /* DoctorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF16BE81D5D12AE001A9603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF16BF11D5D12AE001A9603 /* DoctorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FF16BE31D5D12AE001A9603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF16BCC1D5D12AD001A9603 /* DoctorApp */;
+			targetProxy = 3FF16BE21D5D12AE001A9603 /* PBXContainerItemProxy */;
+		};
+		3FF16BEE1D5D12AE001A9603 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FF16BCC1D5D12AD001A9603 /* DoctorApp */;
+			targetProxy = 3FF16BED1D5D12AE001A9603 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FF16BD41D5D12AD001A9603 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF16BD51D5D12AD001A9603 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF16BD91D5D12AD001A9603 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF16BDA1D5D12AD001A9603 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF16BF31D5D12AE001A9603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FF16BF41D5D12AE001A9603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF16BF61D5D12AE001A9603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3FF16BF71D5D12AE001A9603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DoctorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3FF16BF91D5D12AE001A9603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/DoctorApp";
+			};
+			name = Debug;
+		};
+		3FF16BFA1D5D12AE001A9603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DoctorAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DoctorApp.app/DoctorApp";
+			};
+			name = Release;
+		};
+		3FF16BFC1D5D12AE001A9603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoctorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoctorApp;
+			};
+			name = Debug;
+		};
+		3FF16BFD1D5D12AE001A9603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DoctorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rohan-Katakam.DoctorAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DoctorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF16BC81D5D12AD001A9603 /* Build configuration list for PBXProject "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF16BF31D5D12AE001A9603 /* Debug */,
+				3FF16BF41D5D12AE001A9603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF16BF51D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF16BF61D5D12AE001A9603 /* Debug */,
+				3FF16BF71D5D12AE001A9603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FF16BF81D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF16BF91D5D12AE001A9603 /* Debug */,
+				3FF16BFA1D5D12AE001A9603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3FF16BFB1D5D12AE001A9603 /* Build configuration list for PBXNativeTarget "DoctorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF16BFC1D5D12AE001A9603 /* Debug */,
+				3FF16BFD1D5D12AE001A9603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF16BC51D5D12AD001A9603 /* Project object */;
+}
